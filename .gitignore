@@ -1,0 +1,43 @@
+# .NET/C# Build Artifacts
+bin/
+obj/
+*.csproj.user
+*.suo
+*.user
+*.sln.docstates
+[Dd]ebug/
+[Rr]elease/
+*.pdb
+
+# Visual Studio Files
+.vs/
+*.vscode/
+*.idea/
+
+# NuGet Packages
+*.nupkg
+packages/
+
+# Logs and Temporary Files
+*.log
+*.tmp
+
+# Sensitive Data
+appsettings.json  # If it contains AWS keys or secrets
+*.env
+credentials
+config
+
+# Photo Files (Optional)
+D:\ftproot\photos\  # If you don’t want to commit the actual photos
+photos/
+
+# Angular Build Artifacts (If Angular is in this repo)
+dist/
+node_modules/
+*.log
+.angular/
+
+# Miscellaneous
+*.bak
+Thumbs.db
